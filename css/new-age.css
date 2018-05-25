@@ -9,7 +9,6 @@ body {
 }
 
 a {
-  color: #fdcc52;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -55,6 +54,14 @@ p.left {
 	margin-right: 50px
 }
 
+.right > a {
+	color: #f97745;
+}
+
+.left > a {
+	color: #fff775;
+}
+
 section {
   padding: 100px 0;
 }
@@ -82,7 +89,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #fff;
 }
 
 #mainNav .navbar-toggler {
@@ -114,7 +121,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #222222;
 }
 
 @media (min-width: 992px) {
